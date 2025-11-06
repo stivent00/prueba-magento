@@ -1,0 +1,1 @@
+/var/www/html/prueba_magento/magento2/vendor/magento/module-bundle/view/frontend/web/js/validation.js
