@@ -1,1 +1,0 @@
-/var/www/html/prueba_magento/magento2/vendor/paypal/module-braintree-core/view/base/web/js/helper/add-script.js

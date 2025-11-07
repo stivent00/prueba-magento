@@ -1,4 +1,0 @@
-[2025-11-06T21:38:37.766909+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
-[2025-11-06T22:23:19.227311+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
-[2025-11-06T22:23:23.179163+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/es_ES/underscore-umd.js.map' [] []
-[2025-11-06T22:23:23.179593+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/es_ES/underscore-umd.js.map' [] []

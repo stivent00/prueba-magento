@@ -6,7 +6,7 @@ interface HealthCheckInterface
     /**
      * Retorna el estado del sistema.
      *
-     * @return \Magento\Framework\DataObject
+     * @return mixed
      */
     public function getStatus();
 }

@@ -1,0 +1,94 @@
+# ============================================
+# Magento 2 .gitignore
+# ============================================
+
+# ============================================
+# Composer
+# ============================================
+/vendor/
+/composer.lock
+/.composer/
+
+# ============================================
+# Magento generated files
+# ============================================
+/generated/
+/var/
+/pub/static/*
+!/pub/static/.htaccess
+/app/etc/env.php
+/app/etc/config.php
+
+# ============================================
+# Cache, sessions, logs
+# ============================================
+/var/cache/
+/var/page_cache/
+/var/session/
+/var/tmp/
+/var/view_preprocessed/
+/var/log/
+/var/report/
+/var/import_history/
+/var/export/
+/var/backups/
+
+# ============================================
+# Media (keep .htaccess)
+# ============================================
+/pub/media/*
+!/pub/media/.htaccess
+
+# ============================================
+# Static content
+# ============================================
+/pub/static/*
+!/pub/static/.htaccess
+
+# ============================================
+# IDE and OS files
+# ============================================
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ============================================
+# PHPUnit, Testing
+# ============================================
+/phpunit.xml
+/phpunit.xml.dist
+/build/
+/coverage/
+/tests/report/
+
+# ============================================
+# Node / Frontend build tools
+# ============================================
+/node_modules/
+/package-lock.json
+/.npm/
+/.pnpm-store/
+/dist/
+/yarn.lock
+
+# ============================================
+# Custom build output
+# ============================================
+/*.bak
+/*.tmp
+*.log
+
+# ============================================
+# Docker / Vagrant / Local environment
+# ============================================
+/docker-compose.override.yml
+/.env
+/.docker/
+/.vagrant/
+/.env.local
+/.idea/
+/.project
+/.settings/
