@@ -6,7 +6,7 @@ use Magento\Store\Model\ScopeInterface;
 
 class Data extends AbstractHelper
 {
-    const XML_PATH_PERCENTAGE = 'inter/pricing_adjust/percentage_adjust';
+    const XML_PATH_PERCENTAGE = 'inter_pricing/pricing_adjust/percentage_adjust';
 
     public function getPercentageAdjust($store = null)
     {
