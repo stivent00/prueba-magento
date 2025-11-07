@@ -5,12 +5,15 @@
     <preference for="Inter\HealthCheck\Api\HealthCheckInterface"
                  type="Inter\HealthCheck\Model\HealthCheck"/>
 
-
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
                 <item name="inter_health_check" xsi:type="object">Inter\HealthCheck\Console\Command\HealthCheckCommand</item>
             </argument>
         </arguments>
+    </type>
+
+    <type name="Magento\Framework\Webapi\ServiceOutputProcessor">
+        <plugin name="inter_healthcheck_plugin" type="Inter\HealthCheck\Plugin\ConvertResultPlugin"/>
     </type>
 </config>
