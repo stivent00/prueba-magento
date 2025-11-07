@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/system_file.xsd">
+
+    <system>
+        <section id="inter" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Inter</label>
+            <tab>general</tab>
+            
+            <group id="pricing_adjust" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Ajustes de precios</label>
+                <field id="percentage_adjust" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Porcentaje de ajuste (%)</label>
+                    <validate>validate-number</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+
+</config>
