@@ -21,6 +21,7 @@ Desarrollado y probado en **Magento 2.4.6-p3 (PHP 8.2)**
 1. Copiar los módulos en:
 
 app/code/Inter/HealthCheck
+
 app/code/Inter/PricingAdjust
 
 2. Ejecutar:
